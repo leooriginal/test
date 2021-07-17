@@ -1,4 +1,7 @@
-var test = 45
-var test1
-test1 = test - 4
-console.log(test1)
+function test (a,b,c) {
+  var test;
+  test = a+b+c;
+  return test;
+//console.log (test + ' cm');
+}
+console.log (test (3,5,6));
