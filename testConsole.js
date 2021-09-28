@@ -47,7 +47,7 @@
 var arr = [1, 2, 3, 5]
 for (var i = 0, test = 0; i < arr.length; i++) {
   if (arr[i] === 2 || arr[i] === 3) {
-    // break
+// break
     continue
   }
   test += arr[i]
